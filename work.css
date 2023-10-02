@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.conteiner {
+    width: 80%;
+    margin: 0 auto;
+    text-decoration: none;
+    font-family: sans-serif;
+    
+}
+a {
+    text-decoration: none;
+}
+.header{
+    display: flex;
+    justify-content: end;
+}
+.block-1 {
+    display: flex;
+}
+button {
+    border: none;
+}
+.block p {
+    color: var(--Dark-Color, #21243D);
+font-size: 18px;
+font-weight: 400;
+}
+
+.block {
+    border-radius: 4px;
+background: #FFF;
+box-shadow: 0px 4px 10px 0px rgba(187, 225, 250, 0.25);
+padding: 30px;
+}
+.fgh {
+    display:flex ;
+}
+.fgh p {
+    color: var(--Light, #8695A4);
+font-size: 20px;
+font-weight: 400;
+}
+.fgh {
+    margin: 10px;
+}
+.fgh button {
+    margin:  0  18px 0 0 ;
+}
+.header a {
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px;
+
+}
+.blocktext button {
+    border-radius: 16px;
+background: #142850;color: #FFF;
+font-size: 18px;
+padding: 3px;
+font-weight: 700;
+}
+.block-1 {
+    margin: 70px 0  0 0;
+}
+.bottom-line::after {
+    content: "";
+    position: absolute;
+    margin: 80px  ;
+    left: 0;
+    right: 0;
+    width: 60%;
+    height: 1px; /* Вы можете настроить толщину линии по вашему выбору */
+    background-color: var(--Gray-5, #E0E0E0);; /* Выберите цвет линии по вашему выбору */
+  }
+#footer {
+    margin-top: 80px;
+}

@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.conteiner {
+    width: 80%;
+    margin: 0 auto;
+    text-decoration: none;
+    font-family: sans-serif;
+    
+}
+a {
+    text-decoration: none;
+}
+.header a {
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px;
+
+}
+.header{
+    display: flex;
+    justify-content: end;
+}
+.blog h1 {
+    color: var(--Dark-Color, #21243D);
+font-size: 44px;
+font-weight: 700;
+line-height: 136.364%; /*  */
+
+}
+.blog h2 {
+    color: var(--Dark-Color, #21243D);
+font-size: 30px;
+font-weight: 600;
+margin-top: 40px;
+}
+.p-1 {
+    color: var(--Dark-Color, #21243D);
+font-size: 20px;
+font-weight: 400;
+margin:  10px  0;
+}
+.blog p {
+    color: var(--Dark-Color, #21243D);
+font-size: 16px;
+font-weight: 400;
+}
+.bottom-line {
+    position: relative;
+  }
+  
+  .bottom-line::after {
+    content: "";
+    position: absolute;
+    margin: 25px 0 ;
+    left: 0;
+    width: 55%;
+    height: 1px; /* Вы можете настроить толщину линии по вашему выбору */
+    background-color: var(--Gray-5, #E0E0E0);; /* Выберите цвет линии по вашему выбору */
+    
+  
+  }
+  .blog {
+    margin-top: 50px;
+  }
+#footer {
+    margin-top: 80px;
+}
